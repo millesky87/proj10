@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+  <script src="http://code.jquery.com/jquery-git2.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="data.js"></script>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+  <script type="text/template" id="templates-listing">
+      <div class="sidebar">
+         <a href="<%= items.url %>"><img src="<%= items.avatar_url %>"></a>
+         <span><%= items.name %></span>
+         <span><%= items.login %></span>
+         <span><%= items.location %></span>
+         <span><%= items.email %></span>
+      </div>
+  </script>
+
+
+
+
+<script src="token.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
